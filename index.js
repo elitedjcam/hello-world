@@ -8,3 +8,13 @@ function sayHello(){
 function popHello(){
   alert("Hello, World!");
 }
+
+function consoleHello(){
+  console.log("Hello, World!");
+}
+
+function inputHello(){
+  var stranger = prompt("Hello! What's your name?");
+  var p = document.getElementById("stranger");
+  p.innerHTML = "Hello, " + stranger;
+}
